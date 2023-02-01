@@ -14,9 +14,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    toc: true
-    toc_float: true
-    toc_collapsed: true
-    toc_depth: 1
+    css: style.css
+    toc: false
     theme: paper
     highlight: textmate
