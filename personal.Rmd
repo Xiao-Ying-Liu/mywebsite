@@ -8,3 +8,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Personal
+
+I am passionate about data and I enjoy learning new programming languages. Here I list some of my learning experiences.
