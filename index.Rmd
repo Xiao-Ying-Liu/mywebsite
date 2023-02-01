@@ -1,7 +1,5 @@
 ---
-title: "Xiaoying Liu"
-author: "Xiaoying"
-date: '2023-01-31'
+title: "Introduction"
 output: html_document
 ---
 
@@ -9,22 +7,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Hello!
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I am a Ph.D. candidate in Applied Economics at Cornell University. I received my M.A. in economics from Peking University in 2019 and my B.A. in Project Management from Central University of Finance and Economics in 2015.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+My research tries to understand what non-monetary attributes workers value at work and how they affect worker's behavior. My current research studies how teleworkability would affect worker's residential decision and labor market behaviors. I also try to use NLP methods to study what workers like best at work.

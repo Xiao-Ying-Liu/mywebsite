@@ -1,0 +1,28 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Teaching
+
+Here is a list of courses I TA'ed.
+
+### AEM 4300: International Trade Policy
+Spring 2023, Cornell University
+Instructor: Prof. Nancy Chau
+
+### AEM 4421: Research and Strategy in Emerging Markets
+Spring 2021, 2022, Cornell University
+Instructor: Prof. Ralph Christy
+ 
+### AEM 7010: Applied Microeconomics (Ph.D. core)
+Fall 2020, 2021, Cornell University
+Instructor: Prof. Ben Leyden
+ 
+### Development Workshop (graduate), Peking University
+Fall 2018, Peking University
+Organizer: Prof. Xiaobo Zhang

@@ -1,0 +1,20 @@
+name: "Xiaoying Liu"
+navbar:
+  title: "Xiaoying Liu"
+  left:
+    - text: "Introduction"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Personal"
+      href: personal.html
+
+output_dir: "."
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    toc: true 
+    toc_float: true 
