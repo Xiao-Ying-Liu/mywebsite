@@ -9,5 +9,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Working Papers
 
+&nbsp;
+
+<div style="line-height: 1.5em;">
+
+**Teleworkability: Weakened Tie between Workplace and Residential Place, *Xiaoying Liu* ** 
+
+The number of teleworkers has more than doubled in the past two decades. As telework is weakening the link between residential location and working location, teleworkability is expected to affect worker's decision in both the housing and the labor market. In this paper, I incorporate the feasibility of teleworking into a random job search model with commute to study the impact of teleworkability on the distance between workplace and residence, and wage income. Model implies that teleworkable workers are commuting longer and have a lower reservation wage. As teleworkability relaxes the distance restriction in searching, it may also improve the match quality in the two markets, leading to better community amenities and higher wages. The paper uses Survey of Income and Program Participation 2014 panel data and teleworkable job indicator from Dingel and Neiman (2020) to empirically test above implications. Results show that teleworkable workers spend 3.2 percentage more time on commuting than non-teleworkable workers, indicating teleworkable workers are living farther from their workplace. In addition, they live in communities that are less affected by pest and trash problem, and they have a higher wage income, suggesting improved job match quality.
+
+&nbsp;
+
+**Are Businesses Doing Business in China? Ruochen Dai, Shuo Liu, *Xiaoying Liu*, Xiaobo Zhang**
+
+How many firms shown in the Business Registration Database are doing business in the economy? According to our estimation, nearly 40 percent of registered firms in China are probably not. We define these companies as inactive firms. Seemingly harmless, inactive firms may have a great impact on the economy. Shell companies, lowering the operating cost of some companies through financial maneuvers, could potentially squeeze out other businesses. Closed firms may affect the economy from the policy side. Firm registration database is widely used to measure productive activity and gauge the size of entrepreneurship, which are crucial for both economic analysis and policy making. The extensive existence of inactive firms could bias the policy decision and thus affect the economy as a whole.
+
+Given the importance of inactive firms, the studies on this topic are scarce in large due to lack of data. In this paper, based on the primarily collected Enterprise Survey for Innovation and Entrepreneurship in China (ESIEC) data and the administrative annual enterprise report data, we successfully label the business status of a representative sample of all registered companies in China. Then, we construct an ensemble learning model, the Gradient Boosting Decision Trees (GBDT) to detect the inactive companies. Results show that for all existed firms in administrative record in 2018, around 40 percent are inactive. The share of inactive firms varies across industries and locations. Inactive firms concentrate in Liaoning and Henan province and comprise a smaller fraction in Zhejiang province. They also concentrate in high-subsidy industries such as agriculture, and value-added tax reform industries such as transportation, finance, and business service industries. Using public data, we construct an XGBoost model to predict the inactive status of companies. XGBoost behaves well in spotting inactive firms, with a precision rate being 0.71 and sensitivity rate being 0.65.
+
+&nbsp;
 
 ## Work in Progress
+
+&nbsp;
+
+**Passion at Work, with Michele Belot**
+
+</div>
