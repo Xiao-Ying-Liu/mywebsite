@@ -50,12 +50,15 @@ which compiles
   year={year}
 }
 ```
-3. Go back to Overleaf, paste the text in example.bib, change the **key** of the cited article if you need.
-4. In your *main.tex*, before `\begin{document}`, `\usepackage{natbib}`
+3. Go back to Overleaf, paste the text in example.bib, change the **key** of the cited article if you want.
+4. In your *main.tex*, before `\begin{document}`, type `\usepackage{natbib}`
 5. At the end of the document, include
 ```s
-\bibliographystyle{jpe}  % the natbib style you use
+\bibliographystyle{jpe}  % the natbib style you use, apa, jpe, etc.
 \bibliography{example}   % include the bib file you created
 ```
-6. In the body of your document, you could use `\cite{key}`, `\citep{key}`, etc. to cite the paper now.
+6. In the body of your document, you could use `\cite{key}`, `\citep{key}`, etc. to cite papers now.
 7. Further reading: [Natbib citation styles](https://www.overleaf.com/learn/latex/Natbib_citation_styles)
+
+---
+Originally publish in Chinese at [简书](https://www.jianshu.com/p/71ad2e74b7c0) on Apr. 20, 2021.
