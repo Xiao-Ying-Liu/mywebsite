@@ -11,7 +11,7 @@
 
 
 
-<title>personal.knit</title>
+<title>Overleaf: How to Cite Papers Using et al. Style</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -266,25 +266,44 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Overleaf: How to Cite Papers Using <em>et
+al.</em> Style</h1>
 
 </div>
 
 
-<div id="blog" class="section level2">
-<h2>Blog</h2>
-<p>I am passionate about data and I enjoy learning new programming
-languages. Here I list some of my learning experiences.</p>
+<p>This article shows you how to cite papers with three or more authors
+using <em>et al.</em> style. The example is for jpe bib style, but the
+method should apply to other citation style as well.</p>
 <ul>
-<li><a href="https://xiao-ying-liu.github.io/intro_to_git/">Introduction
-to using Git for economist</a></li>
-<li><a href="overleaf_et_al_citation.html">Overleaf: How to Cite Papers
-Using <em>et al.</em> Style</a></li>
-<li><a href="overleaf_citation.html">Overleaf: How to Cite Papers with
-Biblatex</a></li>
+<li>Step 1: before <code>\begin{document}</code>, add
+<code>\immediate\write18{cp `kpsewhich jpe.bst` .}</code> (the space
+before <code>.</code> cannot be missing) to tell the shell to copy the
+“jpe.bst” file to your Overleaf project.</li>
+<li>Step 2: To the right of the <strong>Recompile</strong> button, you
+can find <strong>Logs and output files</strong>, click on this button
+and go to the bottom right, from <strong>Other logs and files</strong>,
+find “jpe.bst”, click to download.</li>
+<li>Step 3: rename the downloaded file to “myjpe” and upload to your
+Overleaf project.</li>
+<li>Step 4: open the “myjpe.bst” file on Overleaf and find
+<code>FUNCTION {format.lab.names}</code>, under this section, change
+<code>numnames #3 &gt; and</code> to <code>numnames #2 &gt; and</code>,
+that is, for number of names over 2 (3 or more), use “et al.”
+style.</li>
+<li>Step 5: change the <code>\bibliographystyle{jpe}</code> to
+<code>\bibliographystyle{myjpe}</code>.</li>
+<li>Step 6: recompile.</li>
 </ul>
-</div>
-<div id="personal" class="section level2">
-<h2>Personal</h2>
+<div style="line-height: 1em;">
+<hr />
+<p>Ref:</p>
+<ol style="list-style-type: decimal">
+<li>To find the bst file: <a
+href="https://tex.stackexchange.com/questions/553385/where-to-find-apacite-bst-file-to-change-bibliography-style"
+class="uri">https://tex.stackexchange.com/questions/553385/where-to-find-apacite-bst-file-to-change-bibliography-style</a></li>
+<li>To locate the format section: ChatGPT</li>
+</ol>
 </div>
 
 

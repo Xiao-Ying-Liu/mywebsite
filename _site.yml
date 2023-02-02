@@ -14,6 +14,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
+    css: style.css
     toc: false
     theme: paper
     highlight: textmate

@@ -7,9 +7,27 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Hello!
 
+<style>
+  .column-left{
+    float: left;
+    width: 65%;
+    text-align: left;
+  }
+.column-right{
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+</style>
+
+<div class="column-left">
+## Hello!
 I am a Ph.D. candidate in Applied Economics at Cornell University. I received my M.A. in economics from Peking University in 2019 and my B.A. in Project Management from Central University of Finance and Economics in 2015.
 
 My research tries to understand what non-monetary attributes workers value at work and how they affect worker's behavior. My current research studies how teleworkability would affect worker's residential decision and labor market behaviors. I also try to use NLP methods to study what workers like best at work.
+</div>
 
+<div class="column-right">
+<img style="float right;" src="images/Xiaoying-Liu.JPG" width="200px"> 
+</div>

@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here is a list of courses I TA'ed.
 
+<div style="line-height: 0.3em;">
 **AEM 4300: International Trade Policy**
 
 Spring 2023, Cornell University
@@ -25,7 +26,7 @@ Instructor: Prof. Nancy Chau
 Spring 2021, 2022, Cornell University
 
 Instructor: Prof. Ralph Christy
- 
+
 &nbsp;
 
 **AEM 7010: Applied Microeconomics (Ph.D. core)**
@@ -36,9 +37,10 @@ Instructor: Prof. Ben Leyden
 
 &nbsp;
 
-**Development Workshop (graduate), Peking University**
+**Development Workshop, Peking University**
 
 Fall 2018, Peking University
 
 Organizer: Prof. Xiaobo Zhang
 
+</div>

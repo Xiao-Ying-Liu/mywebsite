@@ -11,7 +11,7 @@
 
 
 
-<title>personal.knit</title>
+<title>Overleaf: How to Cite Papers with Biblatex</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -266,25 +266,70 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Overleaf: How to Cite Papers with
+Biblatex</h1>
 
 </div>
 
 
-<div id="blog" class="section level2">
-<h2>Blog</h2>
-<p>I am passionate about data and I enjoy learning new programming
-languages. Here I list some of my learning experiences.</p>
-<ul>
-<li><a href="https://xiao-ying-liu.github.io/intro_to_git/">Introduction
-to using Git for economist</a></li>
-<li><a href="overleaf_et_al_citation.html">Overleaf: How to Cite Papers
-Using <em>et al.</em> Style</a></li>
-<li><a href="overleaf_citation.html">Overleaf: How to Cite Papers with
-Biblatex</a></li>
-</ul>
+<p>This article shows you how to cite papers with biblatex in
+Overleaf.</p>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<p>The overall code is:</p>
+<pre class="s"><code>\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+
+\title{Example of citation}
+\date{}
+
+\maketitle
+\begin{document}
+\cite{acemoglu2001colonial} presents a long-term effect of institution. 
+Study \citep{acemoglu2001colonial} shows that there is long-term effect of institution. 
+Many other works \citep{glaeser2004institutions, rodrik2004institutions} cited \citeauthor{acemoglu2001colonial}&#39;s (\citeyear{acemoglu2001colonial}) work.
+
+\bibliographystyle{jpe}
+\bibliography{example}
+\end{document}</code></pre>
+<p>which compiles</p>
+<p><img style="float center;" src="images/overleaf_results.png" ></p>
 </div>
-<div id="personal" class="section level2">
-<h2>Personal</h2>
+<div id="steps" class="section level3">
+<h3>Steps</h3>
+<ol style="list-style-type: decimal">
+<li>In your Overleaf project, create a new file, name it as
+example.bib</li>
+<li>Find the papers on Google Scholar and click <em>Cite</em>, at the
+bottom of the page, click <em>BibTex</em>, and copy the text. The text
+has the following format:</li>
+</ol>
+<pre class="s"><code>@article{key,
+  title={Title},
+  author={Author},
+  journal={Journal},
+  volume={vol},
+  number={number},
+  pages={pp},
+  year={year}
+}</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Go back to Overleaf, paste the text in example.bib, change the
+<strong>key</strong> of the cited article if you need.</li>
+<li>In your <em>main.tex</em>, before <code>\begin{document}</code>,
+<code>\usepackage{natbib}</code></li>
+<li>At the end of the document, include</li>
+</ol>
+<pre class="s"><code>\bibliographystyle{jpe}  % the natbib style you use
+\bibliography{example}   % include the bib file you created</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>In the body of your document, you could use <code>\cite{key}</code>,
+<code>\citep{key}</code>, etc. to cite the paper now.</li>
+<li>Further reading: <a
+href="https://www.overleaf.com/learn/latex/Natbib_citation_styles">Natbib
+citation styles</a></li>
+</ol>
 </div>
 
 

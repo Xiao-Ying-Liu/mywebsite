@@ -7,6 +7,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Personal
+## Blog
 
 I am passionate about data and I enjoy learning new programming languages. Here I list some of my learning experiences.
+
+- [Introduction to using Git for economist](https://xiao-ying-liu.github.io/intro_to_git/)
+- [Overleaf: How to Cite Papers Using *et al.* Style](overleaf_et_al_citation.html)
+- [Overleaf: How to Cite Papers with Biblatex](overleaf_citation.html)
+
+## Personal
+
