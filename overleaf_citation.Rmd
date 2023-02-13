@@ -36,6 +36,8 @@ which compiles
 
 <img style="float center;" src="images/overleaf_results.png" > 
 
+---
+
 ### Steps
 1. In your Overleaf project, create a new file, name it as example.bib
 2. Find the papers on Google Scholar and click *Cite*, at the bottom of the page, click *BibTex*, and copy the text. The text has the following format:
@@ -61,4 +63,4 @@ which compiles
 7. Further reading: [Natbib citation styles](https://www.overleaf.com/learn/latex/Natbib_citation_styles)
 
 ---
-Originally publish in Chinese at [简书](https://www.jianshu.com/p/71ad2e74b7c0) on Apr. 20, 2021.
+Originally published in Chinese at [简书](https://www.jianshu.com/p/71ad2e74b7c0) on Apr. 20, 2021.
