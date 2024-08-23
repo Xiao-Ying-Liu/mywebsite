@@ -8,39 +8,34 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## Teaching
+## Elmira College
+
+<div style="line-height: 1em;">
+
+**ECO 3200: International Trade and Finance**, Winter 2024
+
+---
+
+## Cornell University
 
 Here is a list of courses I TA'ed.
 
-<div style="line-height: 1em;">
-**AEM 4300: International Trade Policy**
+**AEM 4300: International Trade Policy**, Spring 2023
 
-Spring 2023, Cornell University
-  
 Instructor: Prof. Nancy Chau
 
-&nbsp;
+\
 
-**AEM 4421: Research and Strategy in Emerging Markets**
-
-Spring 2021, 2022, Cornell University
+**AEM 4421: Research and Strategy in Emerging Markets**, Spring 2021, 2022
 
 Instructor: Prof. Ralph Christy
 
-&nbsp;
+\
 
-**AEM 7010: Applied Microeconomics (Ph.D. core)**
-
-Fall 2020, 2021, 2022 Cornell University
+**AEM 7010: Applied Microeconomics (Ph.D. core)**, Fall 2020, 2021, 2022
 
 Instructor: Prof. Ben Leyden
 
-&nbsp;
 
-**Development Workshop, Peking University**
-
-Fall 2018, Peking University
-
-Organizer: Prof. Xiaobo Zhang
 
 </div>
