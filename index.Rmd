@@ -31,5 +31,5 @@ You can find my CV [here](files/CV_Xiaoying_Liu_Aug24.pdf).
 </div>
 
 <div class="column-right">
-<img style="float right;" src="images/Xiaoying-Liu-24.jpg" width="300px"> 
+<img style="float right;" src="images/Xiaoying-Liu-May24.jpg" width="300px"> 
 </div>
