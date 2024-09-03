@@ -27,7 +27,7 @@ I am a Ph.D. candidate in Applied Economics at Cornell University. I am on the 2
 
 My research tries to understand what non-monetary attributes workers value at work and how they affect worker's behavior. My current research studies how teleworkability would affect worker's residential decision and labor market behaviors. I also try to use NLP methods to study what workers like and dislike at work.
 
-You can find my CV [here](files/CV_Xiaoying_Liu_Aug24.pdf).
+You can find my CV [here](files/CV_Xiaoying_Liu_Sep24.pdf).
 </div>
 
 <div class="column-right">
