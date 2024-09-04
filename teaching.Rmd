@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <div style="line-height: 1em;">
 
-**ECO 3200: International Trade and Finance**, Winter 2024
+**ECO 3200: International Trade and Finance**, Winter 2024, [Syllabus](files/ECO3200_01_XiaoyingLiu_WI24.pdf)
 
 ---
 
