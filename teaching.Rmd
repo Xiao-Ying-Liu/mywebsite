@@ -10,8 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Elmira College
 
-<div style="line-height: 1em;">
+<div style="line-height: 2em;">
 
+Below is a course I taught. \
 **ECO 3200: International Trade and Finance**, Winter 2024, [Syllabus](files/ECO3200_01_XiaoyingLiu_WI24.pdf)
 
 ---

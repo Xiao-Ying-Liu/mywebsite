@@ -19,7 +19,7 @@ I am passionate about data and I enjoy learning new programming languages and ne
 
 ## More About Me
 
-I enjoy cooking, baking, workout, playing badminton, playing tennis, and reading.
+I enjoy cooking, baking, workout, playing badminton, and reading.
 
 <img style="float left;" src="images/cookies.JPG" width="200px"> 
 <img style="float center;" src="images/matcha_crepe.JPG" width="200px"> 
