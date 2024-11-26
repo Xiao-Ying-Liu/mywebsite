@@ -7,6 +7,23 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<style>
+  h1.title {
+    display: none;
+  }
+  .column-left {
+    float: left;
+    width: 65%;
+    text-align: left;
+  }
+  .column-right {
+    float: right;
+    width: 30%;
+    text-align: right;
+  }
+</style>
+
+
 ## Blog
 
 I am passionate about data and I enjoy learning new programming languages and new things. Here I share some of my learning experiences.
