@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <div class="column-left">
 ## Hello!
-I am a Ph.D. candidate in Applied Economics at Cornell University. I am on the 2024-2025 job market. I received my M.A. in economics from Peking University in 2019 and my B.A. in Project Management with a minor in Finance from Central University of Finance and Economics in 2015.
+I am a Ph.D. candidate in Applied Economics at Cornell University. I am on the 2024-2025 job market. I received my M.S. in economics from Peking University in 2019 and my B.A. in Project Management with a minor in Finance from Central University of Finance and Economics in 2015.
 
 My research tries to understand what non-monetary attributes workers value at work and how they affect workers' behaviors. My current research studies how increased teleworkability affect workers' work-home location decisions. I also try to use NLP methods to study what workers like and dislike at work.
 
